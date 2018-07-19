@@ -14,6 +14,7 @@
 		FF7D9B8E2100A7A300E7D8B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7D9B8C2100A7A300E7D8B5 /* LaunchScreen.storyboard */; };
 		FF7D9B992100A7A300E7D8B5 /* justForFunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7D9B982100A7A300E7D8B5 /* justForFunTests.swift */; };
 		FF7D9BA42100A7A300E7D8B5 /* justForFunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7D9BA32100A7A300E7D8B5 /* justForFunUITests.swift */; };
+		FF7D9BB22100AC6200E7D8B5 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7D9BB12100AC6200E7D8B5 /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FF7D9B9F2100A7A300E7D8B5 /* justForFunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = justForFunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7D9BA32100A7A300E7D8B5 /* justForFunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = justForFunUITests.swift; sourceTree = "<group>"; };
 		FF7D9BA52100A7A300E7D8B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF7D9BB12100AC6200E7D8B5 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				FF7D9B832100A7A200E7D8B5 /* AppDelegate.swift */,
 				FF7D9B852100A7A200E7D8B5 /* ViewController.swift */,
+				FF7D9BB12100AC6200E7D8B5 /* TestViewController.swift */,
 				FF7D9B872100A7A200E7D8B5 /* Main.storyboard */,
 				FF7D9B8A2100A7A300E7D8B5 /* Assets.xcassets */,
 				FF7D9B8C2100A7A300E7D8B5 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF7D9B862100A7A200E7D8B5 /* ViewController.swift in Sources */,
+				FF7D9BB22100AC6200E7D8B5 /* TestViewController.swift in Sources */,
 				FF7D9B842100A7A200E7D8B5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
